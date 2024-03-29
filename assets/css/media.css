@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .navbar .nav-logo {
+    display: block;
+  }
+  .navbar .nav-list {
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+  }
+  .navbar .nav-list:last-child {
+    padding-bottom: 15px;
+  }
+ .about .about-content{
+    flex-direction: column;
+    width: 100%;  
+}
+}
